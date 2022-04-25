@@ -9,7 +9,7 @@ import java.util.LinkedList;
  * @author HuChao
  * @date 2022/4/26/0026 0:32
  */
-public class shortestPathBinaryMatrix_BFS_TD {
+public class ShortestPathBinaryMatrix_BFS_TD {
 
     // 双向BFS  通过测试用例 84/88
 
