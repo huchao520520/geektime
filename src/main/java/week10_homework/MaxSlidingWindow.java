@@ -1,7 +1,5 @@
 package week10_homework;
 
-import java.util.Iterator;
-import java.util.Map;
 import java.util.TreeMap;
 
 /**
@@ -23,11 +21,6 @@ public class MaxSlidingWindow {
                 }
                 ans[i - k + 1] = treeMap.firstEntry().getKey();
             }
-        }
-
-        Iterator<Map.Entry<Integer, Integer>> iterator = treeMap.entrySet().iterator();
-        while (iterator.hasNext()) {
-
         }
         return ans;
     }
